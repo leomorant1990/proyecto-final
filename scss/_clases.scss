@@ -1,0 +1,116 @@
+
+.bloque {
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedorUno {
+    border: white solid;
+    padding: 40px;
+    padding-bottom: 60px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+
+.linea {
+    border-top: white double 7px;
+    padding-top: 40px;
+}
+
+.lineaDos {
+    border-bottom: white double 7px;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+}
+
+.imagenIndex {
+    width: 1000px;
+}
+
+.imagenTendencias {
+    width: 400px;
+    display: inline-block;
+}
+
+.fondoBlanco {
+    background-color: white;
+    color: black;
+}
+
+.reservarTurno {
+    background-color: white;
+    color: black;
+}
+
+.derechos {
+        color: white;
+        font-size: 20px;   
+    }
+
+.imagenB {
+    width: 700px;
+}
+
+.parrafoPrincipal {
+    border: solid black;
+    background-color: black;
+}
+
+/* GRID */
+
+.item {
+    border: 4px blueviolet solid;
+}
+
+.gridPadre {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 8px;
+}
+
+
+/*GRID AREA*/
+
+.contenedor {
+    display: grid;
+    grid-template-areas: 
+    "cajaA"
+    "cajaB"
+    "cajaC";
+}
+
+.cajaUno {
+    grid-area: cajaA;
+}
+
+.cajaDos {
+    grid-area: cajaB;
+}
+
+.cajaTres {
+    grid-area: cajaC;
+}
+
+
+
+@media (min-width:1025px) {
+    .gridPadre {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width:1024px) {
+    .contenedor {
+        display: grid;
+        grid-template-areas: 
+        "cajaA"
+        "cajaB"
+        "cajaC";
+    }
+}

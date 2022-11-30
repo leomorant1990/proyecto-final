@@ -1,0 +1,28 @@
+main {
+    h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: rgb(227, 132, 227);
+    }
+
+    p {
+        font-family: sans-serif;
+        font-size: 20px;
+        color: $fuente-principal ;
+    }
+
+    h3 {
+        color: rgb(227, 132, 227);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+
+    form {
+        
+        label {
+            color: white;
+        }
+    }
+
+    }
+

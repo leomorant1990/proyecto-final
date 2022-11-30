@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="barberia,barber shop,cortes de cabello,afeitado,tendencias,estilos, buenos aires,zona oeste">
+    <meta name="description" content="En Barber Shop podes reservar tu turno en nuestra pagina web o hacerlo desde alguna de nuestras redes sociales, instagram o facebook ">
+    <title>Proyecto Web</title>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
+</head>
+
+<body class="contenedor">
+
+    <header class="cajaUno">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="tendencias.html">Tendencias</a></li>
+                <li><a href="ubicacion.html">Ubicacion</a></li>
+                <li><a href="reserva.html">Reservar turno</a></li>
+            </ul>
+        </nav>
+        
+        <h1 data-aos="fade-down-left"> Barber Shop </h1>
+
+    </header>
+    
+    <main class="contenedorUno cajaDos">
+    
+    <h2 class="reservarTurno">Reservar turno</h2>
+    
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" > 
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido">
+        <br><br>
+        <label for="correo">Correo Electronico</label>
+        <input type="email" id="correo">
+        <br>
+        <p>Fecha y horario del turno</p>
+        <input type="datetime-local">
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    </main>
+    
+    <footer class="cajaTres">
+        
+        <h2 class="derechos">Todos los derechos reservados</h2> 
+        <h2 class="derechos" >Sitio creado por Leonardo Morant</h2>
+
+        <nav>
+        
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://www.whatsapp.com/" target="_blank">Whatsapp</a>
+        
+        </nav>
+    
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>

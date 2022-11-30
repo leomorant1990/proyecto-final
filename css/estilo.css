@@ -1,0 +1,161 @@
+header h1 {
+  color: rgb(227, 132, 227);
+  font-size: 56px;
+  font-weight: 700px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header nav ul {
+  background-color: blueviolet;
+  padding: 10px;
+}
+header nav ul li {
+  list-style: none;
+  display: inline;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 900px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px;
+  text-align: center;
+}
+
+main h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: rgb(227, 132, 227);
+}
+main p {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+}
+main h3 {
+  color: rgb(227, 132, 227);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+main form label {
+  color: white;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 900px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px;
+  text-align: center;
+}
+
+.bloque {
+  display: block;
+  margin: 0 auto;
+}
+
+.contenedorUno {
+  border: white solid;
+  padding: 40px;
+  padding-bottom: 60px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.linea {
+  border-top: white double 7px;
+  padding-top: 40px;
+}
+
+.lineaDos {
+  border-bottom: white double 7px;
+  padding-bottom: 30px;
+  margin-bottom: 70px;
+}
+
+.imagenIndex {
+  width: 1000px;
+}
+
+.imagenTendencias {
+  width: 400px;
+  display: inline-block;
+}
+
+.fondoBlanco {
+  background-color: white;
+  color: black;
+}
+
+.reservarTurno {
+  background-color: white;
+  color: black;
+}
+
+.derechos {
+  color: white;
+  font-size: 20px;
+}
+
+.imagenB {
+  width: 700px;
+}
+
+.parrafoPrincipal {
+  border: solid black;
+  background-color: black;
+}
+
+/* GRID */
+.item {
+  border: 4px blueviolet solid;
+}
+
+.gridPadre {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 8px;
+}
+
+/*GRID AREA*/
+.contenedor {
+  display: grid;
+  grid-template-areas: "cajaA" "cajaB" "cajaC";
+}
+
+.cajaUno {
+  grid-area: cajaA;
+}
+
+.cajaDos {
+  grid-area: cajaB;
+}
+
+.cajaTres {
+  grid-area: cajaC;
+}
+
+@media (min-width: 1025px) {
+  .gridPadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .contenedor {
+    display: grid;
+    grid-template-areas: "cajaA" "cajaB" "cajaC";
+  }
+}
+body {
+  text-align: center;
+  background-color: black;
+}
+
+/*# sourceMappingURL=estilo.css.map */
